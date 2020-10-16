@@ -1,4 +1,4 @@
-# pronounce: never doubt how to pronounce a word.  🗣🦻
+# pronounce: spoken language trainer.  🗣🦻
 
 Never doubt how to pronounce a word. Double-click it and your browser will say it out loud for you! (Works on firefox and chrome)
 
