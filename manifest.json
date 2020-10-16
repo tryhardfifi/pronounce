@@ -1,0 +1,20 @@
+{
+
+  "manifest_version": 2,
+  "name": "Pronounce",
+  "version": "1.0",
+
+  "description": "Never doubt how to pronounce a word. Better your english!",
+
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["pronounce.js"]
+    }
+  ]
+
+}
