@@ -4,7 +4,7 @@
   "name": "Pronounce",
   "version": "1.0",
 
-  "description": "Never doubt how to pronounce a word. Better your english!",
+  "description": "Never doubt how to pronounce a word. Better your spoken languages!",
 
   "icons": {
     "48": "icons/border-48.png"
@@ -15,6 +15,24 @@
       "matches": ["<all_urls>"],
       "js": ["pronounce.js"]
     }
-  ]
+  ],
+
+ "options_ui": {
+    "page": "options.html"
+  },
+
+  "permissions": ["storage"],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "addon@example.com"
+    }
+  },
+  "browser_action": {
+    "default_icon": {
+      "32": "icons/border-48.png"
+    }
+  }
+  
+
 
 }
