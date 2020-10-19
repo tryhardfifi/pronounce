@@ -29,6 +29,7 @@ function saveOptions(e) {
   browser.storage.sync.set({
     voiceSelect: document.querySelector("#voiceSelect").value
   });
+  window.close();
 }
 
 function restoreOptions() {

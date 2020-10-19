@@ -30,8 +30,11 @@
   "browser_action": {
     "default_icon": {
       "32": "icons/border-48.png"
+    },
+
+    "default_title": "Pronounce",
+    "default_popup": "options.html"
     }
-  }
   
 
 
