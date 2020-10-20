@@ -3,9 +3,11 @@ function onError(error) {
 }
 
 function onGot(item) {
-  let voice = "Jorge";
   if (item.voiceSelect) {
     voice = item.voiceSelect.split(" ")[0];
+  }
+  else {
+    let voice = "Alex (en-US)";
   }
   document.ondblclick = function () {
     var sel =
