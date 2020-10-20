@@ -1,11 +1,67 @@
-# pronounce: spoken language trainer.  🗣🦻
+# double-click pronounce: power up your spoken skills  🗣🦻
 
-Never doubt how to pronounce a word. Double-click it and your browser will say it out loud for you! (Works on firefox and chrome)
+Never doubt how to pronounce a word (in any language). Double-click it and your browser will read it out loud for you! (Works on Firefox and Chrome). Some people use double click to select a word and to then expand the selection to other words, as it would be terrible for you to listen to any selection out loud, double click pronounce will only read out loud when you double-click a single word.
 
 ## Features
-- ✅ Works on firefox
-- ✅ Works on chrome
-- 🚧 Language selection
+- ✅ Works on Firefox
+- ✅ Works on Chrome
+- ✅ Language and voice selection
+
+<details><summary>Languages supported:</summary>
+<p>
+
+
+  - "en-US"
+  - "it-IT"
+  - "sv-SE"
+  - "fr-CA" 
+  - "de-DE"    
+  - "he-IL"
+  - "id-ID"
+  - "en-GB"
+  - "es-AR"
+  - "nl-BE"
+  - "en-scotland"
+  - "en-US"
+  - "ro-RO"
+  - "pt-PT"
+  - "es-ES"
+  - "es-MX"
+  - "th-TH"
+  - "en-AU"
+  - "ja-JP"
+  - "sk-SK"
+  - "hi-IN"
+  - "it-IT"
+  - "pt-BR"
+  - "ar-SA"
+  - "hu-HU"
+  - "zh-TW"
+  - "el-GR"
+  - "ru-RU"
+  - "en-IE"
+  - "es-ES"
+  - "nb-NO"
+  - "es-MX"
+  - "en-IN"
+  - "en-US"
+  - "da-DK"
+  - "fi-FI"
+  - "zh-HK"
+  - "en-ZA"
+  - "fr-FR"
+  - "zh-CN"
+  - "en-IN"
+  - "en-US"
+  - "nl-NL"
+  - "tr-TR"
+  - "ko-KR"
+  - "ru-RU"
+  - "pl-PL"
+  - "cs-CZ"
+
+</p>
+</details>
 
 
 
@@ -28,6 +84,8 @@ I find it really enfuriating that you need to pay to submit an extension to chro
   - open chrome
   - Go to Settings > Extensions > Load unpacked
   - Enjoy!
+  
+Alternatively consider another browser, maybe [firefox](https://www.mozilla.org/en-US/firefox/new/)? 
 
 ## Contributing
 
