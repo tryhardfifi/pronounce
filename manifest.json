@@ -1,8 +1,8 @@
 {
 
   "manifest_version": 2,
-  "name": "Pronounce",
-  "version": "1.0",
+  "name": "Double-click pronounce",
+  "version": "2.0",
 
   "description": "Never doubt how to pronounce a word. Better your spoken languages!",
 
@@ -22,9 +22,10 @@
   },
 
   "permissions": ["storage"],
+
   "browser_specific_settings": {
     "gecko": {
-      "id": "addon@example.com"
+      "id": "{f8716d82-2c5c-430d-b783-5473310342cf}"
     }
   },
   "browser_action": {
