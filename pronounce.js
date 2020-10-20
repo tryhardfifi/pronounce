@@ -30,6 +30,10 @@ function onGot(item) {
   };
 }
 
+
+
+
+      
 let getting = browser.storage.sync.get("voiceSelect");
 getting.then(onGot, onError);
 
