@@ -7,7 +7,7 @@ Never doubt how to pronounce a word. Double-click it and your browser will read 
 - ✅ Works on Chrome
 - ✅ Language and voice selection
 
-<details><summary>Languages supported:</summary>
+<details><summary>Click here to see all languages supported:</summary>
 <p>
 
 
