@@ -79,13 +79,13 @@ You can download the extension [here](https://addons.mozilla.org/en-US/firefox/a
 ### Chrome
 
 I find it really enfuriating that you need to pay to submit an extension to chrome's store, so the steps are:
-  - download the zip [here](https://addons.mozilla.org/en-US/firefox/addon/double-click-pronounce/)
+  - download the zip [here](https://github.com/filipeisho/pronounce/releases/latest)
   - uncompress it
   - open chrome
   - Go to Settings > Extensions > Load unpacked
   - Enjoy!
   
-Alternatively consider another browser, maybe [firefox](https://www.mozilla.org/en-US/firefox/new/)? 
+Alternatively consider installing another browser, maybe [firefox](https://www.mozilla.org/en-US/firefox/new/)? 😏
 
 ## Contributing
 
