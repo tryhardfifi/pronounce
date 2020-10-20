@@ -1,4 +1,4 @@
-# Double-click pronounce: improve your pronounciation for any language 🗣🦻
+# Double-click pronounce: improve your pronounciation for any language 🗣
 
 Never doubt how to pronounce a word. Double-click it and your browser will read it out loud for you! (Works on Firefox and Chrome). Some people use double click to select a word and to then expand the selection to other words, as it would be terrible for you to listen to any selection out loud, double click pronounce will only read out loud when you double-click a single word.
 
