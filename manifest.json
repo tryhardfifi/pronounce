@@ -10,10 +10,16 @@
     "48": "icons/border-48.png"
   },
 
-  "content_scripts": [
+"background": {
+ "persistent": false,
+ "scripts": [
+     "browser-polyfill.js"
+   ]
+ },
+ "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["pronounce.js"]
+      "js": ["browser-polyfill.js","pronounce.js"]
     }
   ],
 
@@ -21,7 +27,7 @@
     "page": "options.html"
   },
 
-  "permissions": ["storage"],
+  "permissions": ["storage", "management"],
 
   "browser_specific_settings": {
     "gecko": {

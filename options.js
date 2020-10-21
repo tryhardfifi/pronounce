@@ -29,6 +29,8 @@ function saveOptions(e) {
   browser.storage.sync.set({
     voiceSelect: document.querySelector("#voiceSelect").value
   });
+
+
 browser.runtime.reload()
 window.close();
 }
@@ -46,6 +48,10 @@ function restoreOptions() {
   let getting = browser.storage.sync.get("voiceSelect");
   getting.then(setCurrentChoice, onError);
 }
+var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+if (!isChrome){
 
+document.querySelector("#chromeText").remove()
+}
+document.querySelector("#voiceSelect").addEventListener('change',saveOptions)
 document.addEventListener("DOMContentLoaded", restoreOptions);
-document.querySelector("form").addEventListener("submit", saveOptions);
