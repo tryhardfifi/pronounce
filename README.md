@@ -1,4 +1,4 @@
-# double-click pronounce: power up your spoken skills  🗣🦻
+# Double-click pronounce: improve your pronounciation for any language 🗣
 
 Never doubt how to pronounce a word. Double-click it and your browser will read it out loud for you! (Works on Firefox and Chrome). Some people use double click to select a word and to then expand the selection to other words, as it would be terrible for you to listen to any selection out loud, double click pronounce will only read out loud when you double-click a single word.
 
@@ -7,7 +7,7 @@ Never doubt how to pronounce a word. Double-click it and your browser will read 
 - ✅ Works on Chrome
 - ✅ Language and voice selection
 
-<details><summary>Languages supported:</summary>
+<details><summary>Click here to see all languages supported:</summary>
 <p>
 
 
@@ -79,13 +79,13 @@ You can download the extension [here](https://addons.mozilla.org/en-US/firefox/a
 ### Chrome
 
 I find it really enfuriating that you need to pay to submit an extension to chrome's store, so the steps are:
-  - download the zip [here](https://addons.mozilla.org/en-US/firefox/addon/double-click-pronounce/)
-  - uncompress it
-  - open chrome
+  - Download the zip [here](https://github.com/filipeisho/pronounce/releases/latest)
+  - Uncompress it
+  - Open chrome
   - Go to Settings > Extensions > Load unpacked
   - Enjoy!
   
-Alternatively consider another browser, maybe [firefox](https://www.mozilla.org/en-US/firefox/new/)? 
+Alternatively consider installing another browser, maybe [firefox](https://www.mozilla.org/en-US/firefox/new/)? 😏
 
 ## Contributing
 
