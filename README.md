@@ -87,8 +87,6 @@ I find it really enfuriating that you need to pay to submit an extension to chro
   - Go to Settings > Extensions > Load unpacked
   - Enjoy!
   
-Alternatively consider installing another browser, maybe [firefox](https://www.mozilla.org/en-US/firefox/new/)? 😏
-
 ## Contributing
 
 Feel free to Contribute to this project!
