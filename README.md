@@ -68,9 +68,7 @@ Some people use double click to select a word and to then expand the selection t
 
 
 ## Motivation
-All throughout middle school and high school I was a pretty good english student, but ever since I started college I began to lose confidence over my pronounciation and I found it really frustrating because 99.9% of my online time is in in english, and that's a huge part of my time. So the goal of this extension is to improve my spoken english.
-
-If you want to see the Show HN thread:
+All throughout middle school and high school I was a pretty good english student, but ever since I started college I began to lose confidence over my pronounciation (as I didn't have english lessons or anyone to talk to in english). I find this really frustrating because 99.9% of my time online is me reading in english... So the goal of this extension is to practice my pronounciation english.
 
 ## Installation
 
