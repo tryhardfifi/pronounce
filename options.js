@@ -42,7 +42,6 @@ function restoreOptions() {
   }
 
   function onError(error) {
-    console.log(`Error: ${error}`);
   }
 
   let getting = browser.storage.sync.get("voiceSelect");

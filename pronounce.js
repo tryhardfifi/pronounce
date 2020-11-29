@@ -1,5 +1,4 @@
 function onError(error) {
-  console.log(`Error: ${error}`);
 }
 
 function onGot(item) {
@@ -23,7 +22,6 @@ function onGot(item) {
       for (i = 0; i < voices.length; i++) {
         if (voices[i].name === voice) {
           utterance.voice = voices[i];
-          console.log(voices[i])
         }
       }
       speechSynthesis.speak(utterance);
