@@ -1,13 +1,15 @@
 # Double-click pronounce: improve your pronounciation for any language 🗣
 
-Never doubt how to pronounce a word. Double-click it and your browser will read it out loud for you! (Works on Firefox and Chrome). Some people use double click to select a word and to then expand the selection to other words, as it would be terrible for you to listen to any selection out loud, double click pronounce will only read out loud when you double-click a single word.
+Never doubt how to pronounce a word. Double-click it and your browser will read it out loud for you! (Works on Firefox and Chrome).
+
+Some people use double click to select a word and to then expand the selection to other words, as it would be terrible for you to listen to any selection out loud, double click pronounce will only read out loud when you double-click a single word.
 
 ## Features
 - ✅ Works on Firefox
 - ✅ Works on Chrome
-- ✅ Language and voice selection
+- ✅ Language locale selection
 
-<details><summary>Click here to see all languages supported:</summary>
+<details><summary>Click here to see all locales supported:</summary>
 <p>
 
 
@@ -66,10 +68,9 @@ Never doubt how to pronounce a word. Double-click it and your browser will read 
 
 
 ## Motivation
-All throughout middle school and high school I was a pretty good english student, but ever since I started college I began to lose confidence over my pronounciation and I found it really frustrating because 99.9% of my online time is in in english, and that's a humongous part of my time. So the goal of this extension is to better my spoken english.
+All throughout middle school and high school I was a pretty good english student, but ever since I started college I began to lose confidence over my pronounciation (as I didn't have english lessons or anyone to talk to in english). I find this really frustrating because 99.9% of my time online is me reading in english... So the goal of this extension is to practice my pronounciation english.
 
-If you want to see the Show HN thread:
-
+If you want to see the Show HN thread: https://news.ycombinator.com/item?id=25236444#25244922
 ## Installation
 
 ### Firefox
@@ -85,8 +86,6 @@ I find it really enfuriating that you need to pay to submit an extension to chro
   - Go to Settings > Extensions > Load unpacked
   - Enjoy!
   
-Alternatively consider installing another browser, maybe [firefox](https://www.mozilla.org/en-US/firefox/new/)? 😏
-
 ## Contributing
 
 Feel free to Contribute to this project!
@@ -94,6 +93,8 @@ Feel free to Contribute to this project!
 ## Contributors
 
 -   [@filipeisho](https://github.com/filipeisho)
+-   [@guimcaballero](https://github.com/guimcaballero)
+
 
 ## License
 
