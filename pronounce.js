@@ -7,13 +7,11 @@ function onGot(item) {
   if (item.voiceSelect) {
     voice = item.voiceSelect.split(" ")[0];
   }
-      console.log(voice)
   document.ondblclick = async function () {
     var sel =
       (document.selection && document.selection.createRange().text) ||
       (window.getSelection && window.getSelection().toString());
 
-      console.log(voice)
     const regex = /[^\s]+/gm;
     const found = sel.match(regex);
     let voices = speechSynthesis.getVoices();
@@ -30,11 +28,16 @@ function onGot(item) {
 }
 
 
-
+function onGotIsOn(isOn){
+  if (isOn.isOn == true){
+    let getting = browser.storage.sync.get("voiceSelect");
+    getting.then(onGot, onError);
+  }
+}
 
       
-let getting = browser.storage.sync.get("voiceSelect");
-getting.then(onGot, onError);
+let isOn = browser.storage.sync.get("isOn");
+isOn.then(onGotIsOn, onError);
 
 
 

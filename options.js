@@ -27,7 +27,8 @@ if (typeof speechSynthesis !== 'undefined' && speechSynthesis.onvoiceschanged !=
 function saveOptions(e) {
   e.preventDefault();
   browser.storage.sync.set({
-    voiceSelect: document.querySelector("#voiceSelect").value
+    voiceSelect: document.querySelector("#voiceSelect").value,
+    isOn: document.querySelector("#isOn").checked
   });
 
 
@@ -40,17 +41,23 @@ function restoreOptions() {
   function setCurrentChoice(result) {
     document.querySelector("#voiceSelect").value = result.voiceSelect || "en-US";
   }
+  function setIsOn(result){
+    document.querySelector("#isOn").checked = result.isOn || false;
+  }
 
   function onError(error) {
   }
 
   let getting = browser.storage.sync.get("voiceSelect");
   getting.then(setCurrentChoice, onError);
+  let isOn = browser.storage.sync.get("isOn");
+  isOn.then(setIsOn, onError);
 }
 var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
 if (!isChrome){
-
 document.querySelector("#chromeText").remove()
 }
 document.querySelector("#voiceSelect").addEventListener('change',saveOptions)
+document.querySelector("#isOn").addEventListener('change',saveOptions)
+
 document.addEventListener("DOMContentLoaded", restoreOptions);
