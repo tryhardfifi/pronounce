@@ -8,6 +8,7 @@ Some people use double click to select a word and to then expand the selection t
 - ✅ Works on Firefox
 - ✅ Works on Chrome
 - ✅ Language locale selection
+- ✅ Toggle on/off
 
 <details><summary>Click here to see all locales supported:</summary>
 <p>
