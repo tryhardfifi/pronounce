@@ -80,7 +80,7 @@ You can download the extension [here](https://addons.mozilla.org/en-US/firefox/a
 
 ### Chrome
 
-I find it really enfuriating that you need to pay to submit an extension to chrome's store, so the steps are:
+I haven't done the application process for the chrome store yet, meanwhile:
   - Download the zip [here](https://github.com/filipeisho/pronounce/releases/latest)
   - Uncompress it
   - Open chrome
