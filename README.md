@@ -88,6 +88,8 @@ I haven't done the application process for the chrome store yet, meanwhile:
   - Uncompress it
   - Open chrome
   - Go to Settings > Extensions > Load unpacked
+  - Click the extensions button on the top left corner
+  - Click on the pin button for Double-click pronounce
   - Enjoy!
   
 ## Contributing
