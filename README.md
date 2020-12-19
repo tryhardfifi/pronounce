@@ -72,6 +72,9 @@ Some people use double click to select a word and to then expand the selection t
 All throughout middle school and high school I was a pretty good english student, but ever since I started college I began to lose confidence over my pronounciation (as I didn't have english lessons or anyone to talk to in english). I find this really frustrating because 99.9% of my time online is me reading in english... So the goal of this extension is to practice my pronounciation english.
 
 If you want to see the Show HN thread: https://news.ycombinator.com/item?id=25236444#25244922
+
+This repo was featured in the 138th issue of Ruan YiFeng's blog: https://ruanyifeng.com/blog/2020/12/weekly-issue-138.html
+
 ## Installation
 
 ### Firefox
