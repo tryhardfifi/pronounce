@@ -82,16 +82,8 @@ This repo was featured in the 138th issue of Ruan YiFeng's blog: https://ruanyif
 You can download the extension [here](https://addons.mozilla.org/en-US/firefox/addon/double-click-pronounce/).
 
 ### Chrome
+You can download the extension [here](https://chrome.google.com/webstore/detail/double-click-pronounce/pohphjaomaaadphonldcdmfflfjhnlgf?hl=en).
 
-I haven't done the application process for the chrome store yet, meanwhile:
-  - Download the zip [here](https://github.com/filipeisho/pronounce/releases/latest)
-  - Uncompress it
-  - Open chrome
-  - Go to Settings > Extensions > Load unpacked
-  - Click the extensions button on the top left corner
-  - Click on the pin button for Double-click pronounce
-  - Enjoy!
-  
 ## Contributing
 
 Feel free to Contribute to this project!
