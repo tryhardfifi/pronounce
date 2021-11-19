@@ -27,17 +27,31 @@ function onGot(item) {
   };
 }
 
+function url_domain(data) {
+  var a = document.createElement("a");
+  a.href = data;
+  return a.hostname;
+}
 
-function onGotIsOn(isOn){
+async function onGotBlacklist(result){
+     blacklist = JSON.parse(result.blacklist);
+     current_url = window.location.href
+     hostname = url_domain(current_url);
+     if (!blacklist.includes(hostname)){
+         let isOn = browser.storage.sync.get("isOn");
+         isOn.then(onGotIsOn, onError);
+     }
+}
+async function onGotIsOn(isOn){
   if (isOn.isOn == true){
     let getting = browser.storage.sync.get("voiceSelect");
     getting.then(onGot, onError);
   }
 }
 
-      
-let isOn = browser.storage.sync.get("isOn");
-isOn.then(onGotIsOn, onError);
+let blacklist = browser.storage.sync.get("blacklist");
+blacklist.then(onGotBlacklist, onError);
+
 
 
 

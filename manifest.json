@@ -2,7 +2,7 @@
 
   "manifest_version": 2,
   "name": "Double-click pronounce",
-  "version": "2.4",
+  "version": "2.5.1",
 
   "description": "Never doubt how to pronounce a word. Better your spoken languages!",
 
@@ -27,7 +27,7 @@
     "page": "options.html"
   },
 
-  "permissions": ["storage", "management"],
+  "permissions": ["tabs","storage", "management"],
 
   "browser_specific_settings": {
     "gecko": {
