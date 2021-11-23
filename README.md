@@ -9,6 +9,7 @@ Some people use double click to select a word and to then expand the selection t
 - ✅ Works on Chrome
 - ✅ Language locale selection
 - ✅ Toggle on/off
+- ✅ Blacklist to turn off in certain webpages
 
 <details><summary>Click here to see all locales supported:</summary>
 <p>
