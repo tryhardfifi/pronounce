@@ -1,5 +1,4 @@
-function onError(error) {
-}
+function onError(error) {}
 
 function onGot(item) {
   speechSynthesis.getVoices();
@@ -20,11 +19,33 @@ function onGot(item) {
       for (i = 0; i < voices.length; i++) {
         if (voices[i].name === voice) {
           utterance.voice = voices[i];
+	  lang = voices[i].lang;
         }
       }
       speechSynthesis.speak(utterance);
+      addToList(sel,voice,lang);
     }
   };
+}
+function addToList(sel,voice) {
+  async function store(result) {
+    if (result.list == null) {
+      list = [];
+    } else {
+      list = JSON.parse(result.list);
+    }
+
+    if (!list.includes(sel)) {
+      list.push([sel,voice,lang]);
+      list = JSON.stringify(list);
+      browser.storage.sync.set({
+        list: list,
+      });
+    }
+  }
+
+  let list = browser.storage.sync.get("list");
+  list.then(store, onError);
 }
 
 function url_domain(data) {
@@ -33,17 +54,19 @@ function url_domain(data) {
   return a.hostname;
 }
 
-async function onGotBlacklist(result){
-     blacklist = JSON.parse(result.blacklist);
-     current_url = window.location.href
-     hostname = url_domain(current_url);
-     if (!blacklist.includes(hostname)){
-         let isOn = browser.storage.sync.get("isOn");
-         isOn.then(onGotIsOn, onError);
-     }
+async function onGotBlacklist(result) {
+  blacklist = JSON.parse(result.blacklist);
+  current_url = window.location.href;
+  hostname = url_domain(current_url);
+  console.log(current_url);
+  if (!blacklist.includes(hostname)) {
+    let isOn = browser.storage.sync.get("isOn");
+    isOn.then(onGotIsOn, onError);
+  }
 }
-async function onGotIsOn(isOn){
-  if (isOn.isOn == true){
+
+async function onGotIsOn(isOn) {
+  if (isOn.isOn == true) {
     let getting = browser.storage.sync.get("voiceSelect");
     getting.then(onGot, onError);
   }
@@ -51,7 +74,3 @@ async function onGotIsOn(isOn){
 
 let blacklist = browser.storage.sync.get("blacklist");
 blacklist.then(onGotBlacklist, onError);
-
-
-
-

@@ -28,6 +28,10 @@
   },
 
   "permissions": ["tabs","storage", "management"],
+  "chrome_url_overrides" : {
+          "newtab": "newtab.html"
+  },
+
 
   "browser_specific_settings": {
     "gecko": {

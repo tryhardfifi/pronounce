@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <script type="application/javascript" src="browser-polyfill.js"></script>
+    <meta charset="utf-8">
+  </head>
+
+  <body>
+
+    <form>
+	<p id="chromeText">Options will be loaded for all new pages on Chrome. Alternatively reload the page.</p>
+	<div >
+        	<input type="checkBox" id="isOn">Active</input>
+	</div>
+	<div class="horizontal">
+                <button type="button" id="blacklist">blacklist</button>
+        	<select id="voiceSelect" class="voiceSelect"></select>
+	</div>
+
+    </form>
+
+    <script src="options.js"></script>
+
+  </body>
+
+<style>
+    body {width: 220px}
+    select {width: 50%}
+    .horizontal {display: flex, flex-direction: row}
+</style>
+</html>

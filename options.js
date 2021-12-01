@@ -31,8 +31,7 @@ function saveOptions(e) {
   e.preventDefault();
   browser.storage.sync.set({
     voiceSelect: document.querySelector("#voiceSelect").value,
-    isOn: document.querySelector("#isOn").checked,
-    blacklist: JSON.stringify([""]),
+    isOn: document.querySelector("#isOn").checked
   });
 
   browser.runtime.reload();
@@ -48,7 +47,12 @@ function url_domain(data) {
 function addToBlacklist(e) {
   async function store(result) {
 
-    blacklist = JSON.parse(result.blacklist);
+    if (result.blacklist == null){
+        blacklist = [""];
+    }
+    else{
+        blacklist = JSON.parse(result.blacklist);
+    }
     current_url = await browser.tabs
       .query({ currentWindow: true, active: true })
       .then((tabs) => {
@@ -76,13 +80,11 @@ function addToBlacklist(e) {
         blacklist: blacklist,
       });
     
-    console.log(blacklist);
   browser.runtime.reload();
   window.close();
   }
 
   function onError(error) {
-      console.log('sldkfj');
     browser.storage.sync.set({
       blacklist: JSON.stringify([""]),
     });
@@ -124,6 +126,7 @@ function restoreOptions() {
   isOn.then(setIsOn, onError);
   let blacklist = browser.storage.sync.get("blacklist");
   blacklist.then(setBlacklist, onError);
+
 }
 var isChrome =
   /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
