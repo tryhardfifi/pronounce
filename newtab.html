@@ -1,34 +1,83 @@
-
 <!DOCTYPE html>
 
 <html>
-  <head>
-    <script type="application/javascript" src="browser-polyfill.js"></script>
-    <meta charset="utf-8">
-  </head>
+	<head>
+		<script type="application/javascript" src="browser-polyfill.js"></script>
+		<meta charset="utf-8" />
+	</head>
 
-  <body>
-      <header>
-      </header>
-          <title>Pronounce </title>
+	<body>
+		<script src="newtab.js"></script>
+		<div class="title">Pronounce:</div>
+		<div id="2" class="word"></div>
+		<div id="1" class="list">
+			<text class="headerlist"> total words pronounced: </text>
+			<text id="3" class="headerlist"> </text>
+		</div>
+		<div class="footer">made with ❤️ by filipeisho</div>
+	</body>
+	<style>
+		.headerlist {
+			text-align: center;
+			font-size: 1.5rem;
+			/*text-decoration: underline;*/
+		}
+		li {
+			/*color: blue;*/
+			font-size: 1rem;
+			margin-top: 1rem;
+		}
+		ul {
+			/*list-style-type: none;*/
+			text-align: start;
+		}
+		body {
+			background-color: #222;
+			color: #ddd;
+			/*font-family: Helvetica;*/
+			align-items: center;
+			justify-content: center;
+			margin-top: 10vh;
+		}
+		.title {
+			/*margin-top: 10vh;*/
+			text-align: center;
+			/*font-size: 9vw;*/
+			font-size: 6rem;
+		}
+		.word {
+			margin-top: 10vh;
+			margin-bottom: 10vh;
+			text-align: center;
+			/*font-size: 4vw;*/
+			font-size: 2rem;
+		}
+		.footer {
+			position: absolute;
+			width: 100vw;
+			margin-left: auto;
+			margin-right: auto;
+			bottom: 2rem;
+			text-align: center;
+			font-size: 1rem;
+		}
 
-    <form>
-	<div >
-    	hellooooooooo
-	</div>
-	<div class="horizontal">
-	</div>
-
-    </form>
-
-    <script src="newtab.js"></script>
-    <script src="pronounce.js"></script>
-
-  </body>
-
-<style>
-    body {width: 220px}
-    select {width: 50%}
-    .horizontal {display: flex, flex-direction: row}
-</style>
+		.list {
+			padding: 10px;
+			margin-top: 10vh;
+			/*background-color: red;*/
+			border-color: #ddd;
+			border-width: 1px;
+			border-style: solid;
+			border-radius: 15px;
+			justify-content: center;
+			align-items: center;
+			width: fit-content;
+			margin-left: auto;
+			margin-right: auto;
+			max-height: 30vh;
+			overflow: auto;
+			text-align: center;
+		}
+	</style>
 </html>
