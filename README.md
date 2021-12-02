@@ -91,7 +91,7 @@ Feel free to Contribute to this project!
 
 -   [@filipeisho](https://github.com/filipeisho)
 -   [@guimcaballero](https://github.com/guimcaballero)
-
+-   [@boncom99](https://github.com/boncom99)
 
 ## License
 
