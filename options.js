@@ -4,7 +4,7 @@ function populateVoiceList() {
     return;
   }
 
-  var voices = speechSynthesis.getVoices();
+  var voices = speechSynthesis.getVoices().sort((a, b) => a.lang.localeCompare(b.lang));
 
   for (var i = 0; i < voices.length; i++) {
     var option = document.createElement("option");
@@ -72,14 +72,14 @@ function addToBlacklist(e) {
         }
         document.querySelector("#blacklist").innerHTML = 'blacklist';
 
-   } 
+   }
 
     blacklist = JSON.stringify(blacklist);
       e.preventDefault();
       browser.storage.sync.set({
         blacklist: blacklist,
       });
-    
+
   browser.runtime.reload();
   window.close();
   }
